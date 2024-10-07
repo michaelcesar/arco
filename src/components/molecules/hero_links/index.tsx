@@ -3,16 +3,12 @@ import styles from './hero_links.module.css';
 export default function HeroLinks() {
   return (
     <aside className={styles.wrapper}>
-      <div className={styles.box}>
-        <span className={styles.title}>
-          Produtos<span className={styles.highlighted}> digitais</span> que
-          mudam <span className={styles.highlighted}> negócios</span>
-        </span>
-        <p className={styles.text}>
-          Transforme sua presença na internet e potencialize seu negócio com
-          soluções digitais sob medida.
-        </p>
-      </div>
+      <p className={styles.text}>
+        <span className={styles.highlighted}>Transforme</span> sua presença
+        digital e <span className={styles.highlighted}>impulsione</span> seu{' '}
+        <span className={styles.highlighted}>negócio</span> com soluções
+        digitais.
+      </p>
     </aside>
   );
 }
