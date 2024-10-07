@@ -4,6 +4,7 @@
   --black: #161616;
   --gray: #e2e2e23a;
   --white: #ffffff;
+  --yellow: #FFC616;
 }
 
 @media (prefers-color-scheme: dark) {
