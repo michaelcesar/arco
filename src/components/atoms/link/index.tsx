@@ -15,8 +15,8 @@ export default function Link({ list }: LinkProps) {
           <Words texts={list}></Words>
           <p>Solicite agora seu orçamento.</p>
         </div>
-        <Images url="/images/arrow_right.svg" width={50} height={50}></Images>
       </div>
+      <Images url="/images/arrow_right.svg" width={50} height={50}></Images>
     </aside>
   );
 }

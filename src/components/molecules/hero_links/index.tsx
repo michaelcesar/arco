@@ -4,10 +4,10 @@ export default function HeroLinks() {
   return (
     <aside className={styles.wrapper}>
       <div className={styles.box}>
-        <h1>
-          <span className={styles.span}>Produtos</span>&nbsp;digitais que&nbsp;
-          <span className={styles.span}>mudam</span>&nbsp;negócios
-        </h1>
+        <span className={styles.title}>
+          Produtos<span className={styles.highlighted}> digitais</span> que
+          mudam <span className={styles.highlighted}> negócios</span>
+        </span>
         <p className={styles.text}>
           Transforme sua presença na internet e potencialize seu negócio com
           soluções digitais sob medida.
