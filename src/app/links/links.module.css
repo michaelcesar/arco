@@ -9,11 +9,10 @@
 
 .content {
   display: flex;
-  padding-top: 24px;
   align-items: center;
-  width: 72%;
+  width: 40%;
   flex-direction: column;
-  gap: 80px;
+  gap: 24px;
 }
 
 .hr {
