@@ -1,6 +1,7 @@
 import Link from '@/components/atoms/link';
 import styles from './links.module.css';
 import Images from '@/components/atoms/images';
+import Content from '@/components/atoms/content';
 
 export default function Home() {
   const texts = [
@@ -18,6 +19,18 @@ export default function Home() {
         </section>
         <section className={styles.links}>
           <Link list={texts}></Link>
+          <Content
+            url="/images/youtube.webp"
+            icon="/images/yt.svg"
+            name="Youtube"
+            text="Tecnologia, marketing e negócios."
+          />
+          <Content
+            url="/images/youtube.webp"
+            icon="/images/insta.svg"
+            name="Instagram"
+            text="Conteúdos diários sobre tecnologia."
+          />
         </section>
       </section>
     </main>

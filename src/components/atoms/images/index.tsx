@@ -11,5 +11,7 @@ export default function Images({
   width = 140,
   height = 140
 }: ImagesProps) {
-  return <Image src={url} alt="logo" width={width} height={height} />;
+  return (
+    <Image src={url} alt="logo" width={width} height={height} priority={true} />
+  );
 }
